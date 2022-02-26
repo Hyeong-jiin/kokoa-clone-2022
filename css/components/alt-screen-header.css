@@ -1,0 +1,36 @@
+.alt-header {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.alt-header__column {
+    width: 33%;
+}
+
+.alt-header__column:first-child {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.alt-header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.alt-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.alt-header__column span:first-child {
+    margin-right: 25px;
+}
+
+.alt-header__title {
+    font-weight: 700;
+    font-size: 25px;
+}
